@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.357d86fe.css",
+    "main.js": "/static/js/main.8ab96f55.js",
+    "static/js/453.11fa6e81.chunk.js": "/static/js/453.11fa6e81.chunk.js",
+    "static/media/bgimg2.png": "/static/media/bgimg2.8bd9e6ae9ba6c57a3f5b.png",
+    "static/media/Group 320.png": "/static/media/Group 320.b6dbf668afac1f9ce2b6.png",
+    "static/media/Group 467.png": "/static/media/Group 467.2cb1f764b77eb7ea47b4.png",
+    "static/media/Group 465.png": "/static/media/Group 465.eb92d23f7e225972d3a0.png",
+    "static/media/online-learning.png": "/static/media/online-learning.f91a78c7ac35a908c8b9.png",
+    "static/media/certification.png": "/static/media/certification.ca8058cd73d64f39b65b.png",
+    "static/media/classroom.png": "/static/media/classroom.be99ddf42d56bedd48dc.png",
+    "static/media/gcc.png": "/static/media/gcc.14da6fc1f25e6d17d627.png",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.357d86fe.css.map": "/static/css/main.357d86fe.css.map",
+    "main.8ab96f55.js.map": "/static/js/main.8ab96f55.js.map",
+    "453.11fa6e81.chunk.js.map": "/static/js/453.11fa6e81.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.357d86fe.css",
+    "static/js/main.8ab96f55.js"
+  ]
+}

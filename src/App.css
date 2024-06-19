@@ -1,0 +1,141 @@
+.App {
+  text-align: center;
+  font-family: poppins;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.abouttab:hover{
+  color: #419CFD;
+}
+.coursehover{
+  display: none;
+  position: absolute;
+  top: 50px;
+  z-index: 20;
+  border-radius: 20px;
+  text-align: start;
+  right: 50px;
+  background-color: white;
+  padding: 20px;
+}
+.footer{
+  padding-top: 150px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #000520;
+}
+.footer2{
+  background-color: #000520;
+  padding: 60px 10px;
+  /* padding-left: 10px;
+  padding-right: 10px; */
+color: #ECF4FF;
+}
+.courseheading a:hover{
+  background-color: #419CFD;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.header{
+  position: sticky;
+  top: 0px ;
+  z-index: 20;
+  background-image: url('./Images/bgimg2.png');
+  background-size: cover;
+  background-color: #000520;
+  font-family: 'Poppins Regular';
+  color: white;
+}
+.group {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 250px;
+ }
+ 
+ .input {
+  width: 100%;
+  height: 40px;
+  line-height: 28px;
+  padding-left: 2rem;
+  border: 2px solid #419CFD;
+  border-radius: 50px;
+  font-size: 14px;
+  outline: none;
+  background-color: #000520;
+  color: #ECF4FF;
+  transition: .3s ease;
+ }
+ 
+ .input::placeholder {
+  color: #ECF4FF;
+  opacity: 43%;
+ }
+ 
+ .input:focus, input:hover {
+  outline: none;
+  border-color: #419CFD;
+  background-color: #000520;
+  box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
+ }
+ 
+ .icon {
+  position: absolute;
+  left: 1rem;
+  fill: white;
+  width: 1rem;
+  height: 1rem;
+ }
+ .icon1 {
+  position: absolute;
+  right:2px;
+  color: white;
+  padding: 6px;
+  background-color: #419CFD;
+  border-radius: 25px;
+
+ }
+ .line:before {
+  content: '';
+  width: 100%;
+  height: 2rem;
+  display: inline-block;
+  background: #5FEF5C;
+}
+.line{
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  width: 100%;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
